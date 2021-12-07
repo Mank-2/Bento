@@ -23,13 +23,13 @@ const printFirstList = () => {
 };
 
 // Print the second List
-if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
-  const printSecondList = () => {
-    list_2.style.backgroundImage = `url(${CONFIG.lists.secondList[0].image})`;
-    list_2.style.backgroundSize = `auto 100%`;
-  };
-} else {
-  const printSecondList = () => {
+const printSecondList = () => {
+  if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
+    const printSecondList = () => {
+      list_2.style.backgroundImage = `url(${CONFIG.lists.secondList[0].image})`;
+      list_2.style.backgroundSize = `auto 100%`;
+    };
+  } else {
     let icon = `<i class="list__head" icon-name="${CONFIG.secondListIcon}"></i>`;
     const position = 'beforeend';
     list_2.insertAdjacentHTML(position, icon);
@@ -46,8 +46,8 @@ if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
       const position = 'beforeend';
       list_2.insertAdjacentHTML(position, item);
     }
-  }; 
-}
+  }
+};
 
 printFirstList();
 printSecondList();
