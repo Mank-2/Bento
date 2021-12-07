@@ -23,7 +23,7 @@ const printFirstList = () => {
 };
 
 // Print the second List
-if (CONFIG.secondList[0].hasOwnProperty("image")) {
+if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
   const printSecondList = () => {
     list_2.style.backgroundImage = CONFIG.lists.secondList[0].image;
   };
