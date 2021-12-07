@@ -18,7 +18,7 @@
   --iconsize: 3vh;
 
   /* Light theme  */
-  --accent: tomato; /* Hover color */
+  --accent: #61b0f1; /* Hover color */
   --bg: #f5f5f5; /* Background color */
   --sbg: #e4e6e6; /* Cards color */
 
@@ -35,7 +35,7 @@
 
 /* Dark theme  */
 .darktheme {
-  --accent: #61b0f1; /* Hover color */
+  --accent: tomato; /* Hover color */
   --bg: #19171a; /* Background color */
   --sbg: #201e21; /* Cards color */
   --fg: #d8dee9; /* Foreground color */
