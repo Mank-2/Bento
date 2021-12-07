@@ -103,8 +103,10 @@ const CONFIG = {
         link: 'https://webk.telegram.org',
       },
     ],
-    secondList: { 
-      image: './assets/img1.jpg' 
-    }
+    secondList: [
+      { 
+        image: './assets/img1.jpg' 
+      }
+    ]
   },
 };

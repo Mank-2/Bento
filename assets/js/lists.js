@@ -4,8 +4,8 @@
 
 // Print the first List
 const printFirstList = () => {
-  if (CONFIG.lists.secondList.hasOwnProperty("image")) {
-    list_1.style.setProperty('backgroundImage', `url(${CONFIG.lists.firstList.image})`);
+  if (CONFIG.lists.firstList[0].hasOwnProperty("image")) {
+    list_1.style.setProperty('backgroundImage', `url(${CONFIG.lists.firstList[0].image})`);
   } else {
     let icon = `<i class="list__head" icon-name="${CONFIG.firstListIcon}"></i>`;
     const position = 'beforeend';
@@ -28,8 +28,8 @@ const printFirstList = () => {
 
 // Print the second List
 const printSecondList = () => {
-  if (CONFIG.lists.secondList.hasOwnProperty("image")) {
-    list_2.style.setProperty('backgroundImage', `url(${CONFIG.lists.secondList.image})`);
+  if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
+    list_2.style.setProperty('backgroundImage', `url(${CONFIG.lists.secondList[0].image})`);
   } else {
     let icon = `<i class="list__head" icon-name="${CONFIG.secondListIcon}"></i>`;
     const position = 'beforeend';
