@@ -103,5 +103,8 @@ const CONFIG = {
         link: 'https://webk.telegram.org',
       },
     ],
+    secondList: {
+      image: './assets/background.jpg'
+    }
   },
 };
