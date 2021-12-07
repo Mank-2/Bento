@@ -4,28 +4,32 @@
 
 // Print the first List
 const printFirstList = () => {
-  let icon = `<i class="list__head" icon-name="${CONFIG.firstListIcon}"></i>`;
-  const position = 'beforeend';
-  list_1.insertAdjacentHTML(position, icon);
-  for (const link of CONFIG.lists.firstList) {
-    // List item
-    let item = `
-        <a
-        target="${CONFIG.openInNewTab ? '_blank' : ''}"
-        href="${link.link}"
-        class="list__link"
-        >${link.name}</a
-        >
-    `;
+  if (CONFIG.lists.secondList.hasOwnProperty("image")) {
+    list_1.style.setProperty('backgroundImage', `url(${CONFIG.lists.firstList.image})`);
+  } else {
+    let icon = `<i class="list__head" icon-name="${CONFIG.firstListIcon}"></i>`;
     const position = 'beforeend';
-    list_1.insertAdjacentHTML(position, item);
+    list_1.insertAdjacentHTML(position, icon);
+    for (const link of CONFIG.lists.firstList) {
+      // List item
+      let item = `
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${link.link}"
+          class="list__link"
+          >${link.name}</a
+          >
+      `;
+      const position = 'beforeend';
+      list_1.insertAdjacentHTML(position, item);
+    }
   }
 };
 
 // Print the second List
 const printSecondList = () => {
-  if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
-    list_2.style.setProperty('backgroundImage', `url(${CONFIG.lists.secondList[0].image})`);
+  if (CONFIG.lists.secondList.hasOwnProperty("image")) {
+    list_2.style.setProperty('backgroundImage', `url(${CONFIG.lists.secondList.image})`);
   } else {
     let icon = `<i class="list__head" icon-name="${CONFIG.secondListIcon}"></i>`;
     const position = 'beforeend';
