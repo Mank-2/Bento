@@ -1,3 +1,4 @@
 const dropEventHandler = (evt) => {
-    localStorage.setItem(`${evt.target.id}_img`, URL.createObjectURL(DataTransferItem.items[0].getAsFile()));
+    ev.preventDefault();
+    localStorage.setItem(`${evt.target.id}_img`, URL.createObjectURL(evt.dataTransferItem.items[0].getAsFile()));
 };
