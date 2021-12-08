@@ -32,6 +32,8 @@ const printFirstList = () => {
 const printSecondList = () => {
   if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
     let imgURL = localStorage.getItem(`${list_2.id}_img`);
+
+    // I will most likely have to add more CSS declarations in the future
     Object.assign(list_2.style, {
       'backgroundImage': `url(${imgURL})`
     });
