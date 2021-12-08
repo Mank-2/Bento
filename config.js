@@ -105,7 +105,7 @@ const CONFIG = {
     ],
     secondList: [
       { 
-        image: './assets/img2.jpg' 
+        image: './assets/background.jpg' 
       }
     ]
   },
