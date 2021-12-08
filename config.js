@@ -81,26 +81,26 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'coffee',
+  firstListIcon: 'anchor',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Kemono',
+        link: 'https://kemono.party/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Reddit',
+        link: 'https://reddit.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Pixiv',
+        link: 'https://pixiv.net',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: '/g/',
+        link: 'https://4chan.org/g/',
       },
     ],
     // Need the associative array to be within a regular array (you can figure out why)
