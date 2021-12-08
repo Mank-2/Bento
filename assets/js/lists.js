@@ -7,7 +7,7 @@
 const printFirstList = () => {
   if (CONFIG.lists.firstList[0].hasOwnProperty("image")) {
     // When there is no image stored in localStorage, set the image to the one defined in ../config.js 
-    let imgURL = localStorage.hasOwnProperty(`${list_1.id}_img`) ? localStorage.getItem(`${list_1.id}_img`) : CONFIG.lists.firstList.image;
+    let imgURL = localStorage.hasOwnProperty(`${list_1.id}_img`) ? localStorage.getItem(`${list_1.id}_img`) : CONFIG.lists.firstList[0].image;
 
     // I will most likely have to add more CSS declarations in the future
     Object.assign(list_1.style, {
@@ -39,7 +39,7 @@ const printFirstList = () => {
 const printSecondList = () => {
   if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
     // When there is no image stored in localStorage, set the image to the one defined in ../config.js 
-    let imgURL = localStorage.hasOwnProperty(`${list_2.id}_img`) ? localStorage.getItem(`${list_2.id}_img`) : CONFIG.lists.secondList.image;
+    let imgURL = localStorage.hasOwnProperty(`${list_2.id}_img`) ? localStorage.getItem(`${list_2.id}_img`) : CONFIG.lists.secondList[0].image;
 
     // I will most likely have to add more CSS declarations in the future
     Object.assign(list_2.style, {

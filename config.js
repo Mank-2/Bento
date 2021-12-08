@@ -103,6 +103,7 @@ const CONFIG = {
         link: 'https://webk.telegram.org',
       },
     ],
+    // Need the associative array to be within a regular array (you can figure out why)
     secondList: [
       { 
         image: './assets/background.jpg' 
