@@ -30,7 +30,11 @@ const printFirstList = () => {
 // Print the second List
 const printSecondList = () => {
   if (CONFIG.lists.secondList[0].hasOwnProperty("image")) {
-    list_2.style.backgroundImage = `url(${CONFIG.lists.secondList[0].image})`;
+    Object.assign(list_2.style, {
+      'backgroundImage': `url(${localStorage.getItem(`${list_2.id}_img`)})`
+    });
+    list_2.setAttribute('ondrop', 'dropEventHandler(event);')
+    list_2.setAttribute('ondragover', 'dragOverEventHandler(event);')
   } else {
     let icon = `<i class="list__head" icon-name="${CONFIG.secondListIcon}"></i>`;
     const position = 'beforeend';
