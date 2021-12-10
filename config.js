@@ -81,7 +81,7 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'anchor',
+  firstListIcon: 'link',
 
   // Links
   lists: {
