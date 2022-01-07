@@ -55,7 +55,7 @@
 }
 
 .weatherValue p {
-  margin-left: none !important;
+  margin-left: 0 !important;
 }
 
 * {
