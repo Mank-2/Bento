@@ -17,10 +17,10 @@ const CONFIG = {
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'Morning',
+  greetingAfternoon: 'Afternoon',
+  greetingEvening: 'Evening',
+  greetingNight: '...',
 
   // Weather
   weatherKey: '9625537d49fbabadd22c92cdcf8d2a36',
