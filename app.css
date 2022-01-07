@@ -48,7 +48,7 @@
 }
 
 
-/* S T Y L E S */
+/*  S T Y L E S  */
 
 .weatherIcon > img:nth-child(1) {
   filter: invert(98%) sepia(2%) saturate(5320%) hue-rotate(327deg) brightness(92%) contrast(102%);
