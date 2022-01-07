@@ -33,20 +33,26 @@
   ); /* Filter color */
 }
 
+
 /* Dark theme  */
 .darktheme {
   --accent: #83a598; /* Hover color */
-  --bg: #19171a; /* Background color */
-  --sbg: #201e21; /* Cards color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #3a3a3a; /* Secondary Foreground color */
+  --bg: #282828; /* #19171a: Background color */
+  --sbg: #3c3836; /* #201e21 Cards color */
+  --fg: #ebdbb2; /* #d8dee9: Foreground color */
+  --sfg: #bdae93; /* #3a3a3a: Secondary Foreground color */
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.85),
     rgba(0, 0, 0, 0.85)
   ); /* Filter color */
 }
 
+
 /* S T Y L E S */
+
+.date {
+  display: none;
+}
 
 * {
   margin: 0;
