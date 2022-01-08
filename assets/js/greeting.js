@@ -18,7 +18,7 @@ const gree4 = `${CONFIG.greetingEvening}`;
 // Define the hours of the greetings
 if (hour >= 23 || hour < 5) {
   document.getElementById('greetings').innerText = 
-    name ? gree4 : gree4 + "\xa0" + name;
+    name ? gree1 : gree1 + "\xa0" + name;
 } else if (hour >= 5 && hour < 12) {
   document.getElementById('greetings').innerText =
     name ? gree2 : gree2 + "\xa0" + name;
