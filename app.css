@@ -40,7 +40,7 @@
   --bg: #282828; /* #19171a: Background color */
   --sbg: #3c3836; /* #201e21 Cards color */
   --fg: #ebdbb2; /* #d8dee9: Foreground color */
-  --sfg: #bdae93; /* #3a3a3a: Secondary Foreground color */
+  --sfg: #3c3836; /* #3a3a3a: Secondary Foreground color */
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.85),
     rgba(0, 0, 0, 0.85)
