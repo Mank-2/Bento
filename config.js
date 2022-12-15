@@ -87,19 +87,15 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Kemono',
-        link: 'https://kemono.party/',
-      },
-      {
-        name: 'Reddit',
+        name: '01',
         link: 'https://reddit.com/',
       },
       {
-        name: 'Pixiv',
+        name: '02',
         link: 'https://pixiv.net',
       },
       {
-        name: '/g/',
+        name: '03',
         link: 'https://4chan.org/g/',
       },
     ],
